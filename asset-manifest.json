@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/checkgender%20/static/css/main.e68f4b8c.css",
+    "main.js": "/checkgender%20/static/js/main.9d60bbec.js",
+    "static/js/787.81c19a51.chunk.js": "/checkgender%20/static/js/787.81c19a51.chunk.js",
+    "index.html": "/checkgender%20/index.html",
+    "main.e68f4b8c.css.map": "/checkgender%20/static/css/main.e68f4b8c.css.map",
+    "main.9d60bbec.js.map": "/checkgender%20/static/js/main.9d60bbec.js.map",
+    "787.81c19a51.chunk.js.map": "/checkgender%20/static/js/787.81c19a51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e68f4b8c.css",
+    "static/js/main.9d60bbec.js"
+  ]
+}
