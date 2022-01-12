@@ -25,7 +25,7 @@ function App() {
         .get(`http://localhost:3002/checkgender/${reqName}`)
 
         .then((res) => {
-          let dataResult = res.data.message;
+          let dataResult = res.data;
           setloading(false);
           setResult(dataResult);
         })
