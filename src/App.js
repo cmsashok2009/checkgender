@@ -16,14 +16,16 @@ function App() {
     setInputname(e.target.value);
     setResult("");
   };
+  //  .get(`https://api.genderize.io/?name=${reqName}`)
   useEffect(() => {
     reqName && reqName !== "undefined" && setloading(true);
     reqName &&
       reqName !== "undefined" &&
       axios
-        .get(`https://api.genderize.io/?name=${reqName}`)
+        .get(`http://localhost:3002/checkgender/${reqName}`)
+
         .then((res) => {
-          let dataResult = res.data;
+          let dataResult = res.data.message;
           setloading(false);
           setResult(dataResult);
         })
@@ -37,10 +39,11 @@ function App() {
       <div>
         <form>
           <label>
-            Enter name:
+            <span className="gc-label">Enter name:</span>
             <input
               type="text"
               name="checkGender"
+              className="gc-text"
               value={inputname}
               onChange={(event) => handleInputChange(event)}
             />
