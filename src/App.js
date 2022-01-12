@@ -22,7 +22,9 @@ function App() {
     reqName &&
       reqName !== "undefined" &&
       axios
-        .get(`http://localhost:3002/checkgender/${reqName}`)
+        .get(
+          `https://ashok-gender-check-application.herokuapp.com/checkgender/${reqName}`
+        )
 
         .then((res) => {
           let dataResult = res.data;
