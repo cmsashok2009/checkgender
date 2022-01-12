@@ -1,16 +1,13 @@
-* {
-  box-sizing: border-box;
-}
 .App {
   text-align: center;
 }
 body {
-  background: #3b49df;
+  background: #fff;
   font: 400 16px "Calibri", "Arial";
   padding: 20px;
 }
 h3 {
-  color: #fff;
+  color: #333333;
   font-size: 20px;
 }
 
@@ -19,7 +16,8 @@ h3 {
   pointer-events: none;
 }
 .gc-label {
-  color: #fff;
+  color: #333333;
+
   text-align: center;
   font-size: 20px;
   padding: 7px;
@@ -65,6 +63,7 @@ thead tr {
 tbody tr {
   height: 48px;
   border-bottom: 1px solid #e3f1d5;
+  background: #bcbaf3;
 }
 tbody tr:last-child {
   border: 0;
